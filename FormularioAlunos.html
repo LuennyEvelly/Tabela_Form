@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+
+
+   <head> 
+      <link rel= "stylesheet" type= "text/css" href= "style.css">
+      <meta charset= "UTF-8">
+      <title> Notas Aluno </title>
+   
+   </head>
+   <body>
+      <header>
+         <div class= "box">
+            <h1> Sistema De Notas</h1>
+         </div>
+      </header>      
+
+      <main>
+
+         <form>
+            <div class= "nome">     
+               <label for= "nome"> Nome do Aluno: </label>
+               <input type= "text" name= "nome" id= "nome">    
+            </div> 
+            <div class= "notas">
+               <label for= "nota1"> Nota 1: </label>   
+               <input type= "number" name= "nota1" id= "nota1"> 
+            <div>  
+               <label for= "nota2"> Nota 2: </label>  
+            </div>
+            <div>       
+               <input type= "number" name= "nota2" id= "nota2">
+               <label for= "nota3"> Nota 3: </label>   
+            </div>   
+               <input type= "number" name= "nota3" id= "nota3"> 
+            <input class= "enviar" type= "submit" name= "enviar"  class= "input-padrao botao"> 
+         </form>
+
+          <section>
+            <h2 class= "titulos"> Tabela de Notas </h2>
+            <table>
+               <thead>
+                  <tr>
+                     <th> Nome </th> 
+                     <th> Nota 1 </th> 
+                     <th> Nota 2 </th> 
+                     <th> Nota 3 </th> 
+                     <th> Média Semestral </th> 
+                     <th> Situação </th> 
+                  </tr>
+               </thead>  
+               <tr>
+                  <td class="infoNome">Beatriz</td>
+                  <td class ="InfoNota1"> 10</td>
+                  <td class="infoNota2">10</td>
+                  <td class="infoNota3">10</td>
+                  <td class="infoMedia">10.00</td>
+                  <td class="infoSituacao">Aprovado</td>
+               </tr>
+               <tbody id="tabela-body" class="alunos"></tbody>
+            </table>
+            <script type="text/javascript" src="js/principal.js"></script>      
+
+         </section>
+         <script src="principal.js"></script>
+    
+      </main>      
+</html>

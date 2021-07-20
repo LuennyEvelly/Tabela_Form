@@ -1,0 +1,51 @@
+.box{
+	background: #87CEEB;
+	padding: 5px;
+}
+
+form{
+	display: block;
+	margin: 30px auto;
+	font-size: 20px;
+}
+
+.nome{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+
+input {	
+	display: block;
+	margin: 10px;
+	width: 400px;
+    padding: 10px;
+    border:1px solid #ccc;
+    display: block;
+}   
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 15px;
+}
+
+table {
+	width: 85%;
+	margin: 50px;
+}
+
+th {
+	background-color:	#4682B4;
+}
+
+h2 {
+	text-align: center;
+}
+
+td {
+	background-color:#ADD8E6;
+}
